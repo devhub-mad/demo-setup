@@ -15,7 +15,7 @@ spec:
         - values-gitwebhook-operator.yaml
   destination:
     server: https://kubernetes.default.svc
-    namespace: gitwebhook-operator
+    namespace: devhub
   syncPolicy:
     automated:
       prune: true

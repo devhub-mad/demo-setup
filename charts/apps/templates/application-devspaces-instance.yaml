@@ -12,7 +12,7 @@ spec:
     path: charts/devspaces
   destination:
     server: https://kubernetes.default.svc
-    namespace: openshift-devspaces
+    namespace: devhub
   syncPolicy:
     automated:
       prune: true
